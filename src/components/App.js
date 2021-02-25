@@ -53,5 +53,4 @@ class App extends Component {
   }
 }
 
-//AIzaSyC9xf7NMQBJoDa-zupaB8SWdB38qB5vEUM
 export default App;
