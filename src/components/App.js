@@ -7,8 +7,9 @@ const KEY = "AIzaSyC9xf7NMQBJoDa-zupaB8SWdB38qB5vEUM";
 
 class App extends Component {
   state = { vids: [], selVideo: null };
+
   componentDidMount() {
-    this.onTermSubmit("");
+    this.onTermSubmit("Travelers");
   }
 
   onTermSubmit = async (term) => {
