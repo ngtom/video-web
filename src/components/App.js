@@ -3,7 +3,7 @@ import youtube from "../apis/youtube";
 import SearchBar from "./SearchBar";
 import VideoDetail from "./VideoDetail";
 import VideoList from "./VideoList";
-const KEY = "AIzaSyC9xf7NMQBJoDa-zupaB8SWdB38qB5vEUM";
+
 
 class App extends Component {
   state = { vids: [], selVideo: null };
